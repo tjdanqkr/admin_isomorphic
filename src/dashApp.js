@@ -3,8 +3,8 @@ import { Provider } from 'react-redux';
 import { store, history } from './redux/store';
 import PublicRoutes from './router';
 import { ThemeProvider } from 'styled-components';
-import { LocaleProvider } from 'antd';
-import { IntlProvider } from 'react-intl';
+import { LocaleProvider } from 'antd';  //ant design 
+import { IntlProvider } from 'react-intl';// 다중언어 기능
 import themes from './config/themes';
 import AppLocale from './languageProvider';
 import config, {
